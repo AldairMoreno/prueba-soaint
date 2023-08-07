@@ -11,7 +11,7 @@ Intrucciones para ejecutar el proyecto
 
 1. Clonar el repositorio
 
-        git clone 
+        git clone https://github.com/AldairMoreno/prueba-soaint.git
 
 2. Descargar los modulos
 
@@ -34,3 +34,5 @@ Intrucciones para ejecutar el proyecto
     const array1 = [-10,22,333,42];
     const array2 = [-11,-10,5,22,41,42,333];
    y viceversa
+
+8. los resultados del merge de arrays solo se visualizan en la consola
