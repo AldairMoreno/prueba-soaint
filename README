@@ -1,0 +1,36 @@
+# Prueba consultor de Microservicios - SOAINT
+Proyecto para realizar el merge de 2 array con valores duplicados
+Premisas:
+-	Escribe una función que tome los 2 array como argumento 
+-	Realiza el merge entre los 2 array eliminando de ella los valores duplicados
+-	Ordena del Array resultante de forma ascendente
+-	Retorna el Array resultante
+
+
+Intrucciones para ejecutar el proyecto
+
+1. Clonar el repositorio
+
+        git clone 
+
+2. Descargar los modulos
+
+        npm install
+        
+3. El proyecto ya tiene configurado el host y puerto en el archivo .ENV, si se desea emplear un host o puerto diferente, se puede configurar en dicho archivo
+
+        HOST = 'localhost
+        PORT = '3000'
+        
+5. Inicializar el servidor
+
+        npm run serve
+
+6. En caso de desear visualizar las instrucciones de ejecución en un navegor copie el siguiente link:
+        
+        http://localhost:3000/merge
+        
+7. para validar los escenarios puestos en la prueba pueden comentar las lineas dentro del archivo controlador.principal.js
+    const array1 = [-10,22,333,42];
+    const array2 = [-11,-10,5,22,41,42,333];
+   y viceversa
